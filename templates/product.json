@@ -1,10 +1,32 @@
 {
   "sections": {
-    "product-template": {
-      "type": "product-template",
-      "settings": {
+"product-template": {
+    "type": "product-template",
+    "blocks": {
+      "title": {
+        "type": "title"
+      },
+      "price": {
+        "type": "price"
+      },
+      "add_to_cart_form": {
+        "type": "add_to_cart_form"
+      },
+      "description": {
+        "type": "description"
+      },
+      "social_sharing": {
+        "type": "social_sharing"
       }
     },
+    "block_order": [
+      "title",
+      "price",
+      "add_to_cart_form",
+      "description",
+      "social_sharing"
+    ]
+  },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
